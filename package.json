@@ -1,0 +1,39 @@
+{
+  "name": "pdf-text-position-table-extract",
+  "version": "0.1.1",
+  "description": "Rebuild a rectangular table from positioned text fragments (x, baseline, size, text), keeping empty cells in place.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/table.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "pdf",
+    "table-extraction",
+    "ocr",
+    "javascript",
+    "esm",
+    "csv",
+    "text-layout",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/pdf-text-position-table-extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/pdf-text-position-table-extract/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/pdf-text-position-table-extract#readme"
+}
